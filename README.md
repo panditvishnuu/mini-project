@@ -41,6 +41,18 @@ The project is structured as follows:
     Create a .env file in the root directory.
     Add the required environment variables (e.g., GEMINI_API_KEY, database credentials).
 
+    DATABASE_URL=
+
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+    CLERK_SECRET_KEY=
+
+    NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+    NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+    NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
+    NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+
+GEMINI_API_KEY=
+
 4. Run the development server:
     npm run dev
 
